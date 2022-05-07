@@ -3,19 +3,19 @@ function Cabecalho(){
         <header>
           <div className="centrao">
             <div className="h-esq">
-              <img src='Instagram_logo.svg.png' />
+              <a href=""><img src='Instagram_logo.svg.png' /></a>
             </div>
             <div className="h-cen">
               <img src='procurar.png' />
-              <p>Pesquisar</p>
+              <a href=""><p>Pesquisar</p></a>
             </div>
             <div className="h-dir">
-              <img src='home.png' />
-              <img src='bate-papo.png' />
-              <img src='postagem-no-instagram.png' />
-              <img src='explorar.png' />
-              <img src='coracao.png' />
-              <span className="userlog"><img src="userlogado.jpg"/></span>
+              <a href=""><img src='home.png' /></a>
+              <a href=""><img src='bate-papo.png' /></a>
+              <a href=""><img src='postagem-no-instagram.png' /></a>
+              <a href=""><img src='explorar.png' /></a>
+              <a href=""><img src='coracao.png' /></a>
+              <a href=""><span className="userlog"><img src="userlogado.jpg"/></span></a>
             </div>
           </div>
         </header>

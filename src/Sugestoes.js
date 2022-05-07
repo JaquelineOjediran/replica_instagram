@@ -5,11 +5,11 @@ function Sugestoes(props){
                     <img src={props.users} />
                 </div>
                 <div className="f3-cen">
-                    <p className="txtNegrito">{props.userLogado}</p>
+                    <a href=""><p className="txtNegrito">{props.userLogado}</p></a>
                     <p className="txtCinza">{props.biografia}</p>
                 </div>
                 <div className="f3-dir">
-                    <p className="txtAzul">Seguir</p>
+                    <a href=""><p className="txtAzul">Seguir</p></a>
                 </div>  
         </div>
     )

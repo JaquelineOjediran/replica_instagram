@@ -9,8 +9,6 @@ function App() {
       <main>
         <Cabecalho />
         <Conteudo  />
-
-        
       </main>
 
     </div>

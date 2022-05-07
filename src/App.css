@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  color: #000;
+}
+
 body{
   background-color: #FAFAFA;
 }
@@ -56,6 +61,10 @@ header{
   display: flex;
   align-items: center;
   font-weight: 100;
+}
+
+.h-cen a{
+  cursor: auto;
 }
 
 .h-cen p{
@@ -210,9 +219,18 @@ header{
   width: 70%;
 }
 
+.f2-esq a:hover{
+  opacity: 0.5;
+}
+
 .f2-dir{
   padding-right: 10px;
   width: 30%;
+  text-align: right;
+}
+
+.f2-dir a:hover{
+  opacity: 0.5;
 }
 
 .f2-esq img{
@@ -378,6 +396,10 @@ header{
   width: 65%;
 }
 
+.f3-cen a:hover{
+  text-decoration:underline;
+}
+
 .f3-esq img{
   width:20px;
   height: 20px;
@@ -433,4 +455,5 @@ td p{
   margin: 0 20px;
   font-weight: 350;
 }
+
 

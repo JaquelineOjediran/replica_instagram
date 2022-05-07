@@ -1,7 +1,7 @@
 function Stories(props){
     return(
         <td>
-            <img src={props.Storie} />
+            <a href=""><img src={props.Storie} /></a>
             <p>{props.nomeUser}</p>
         </td>
     )

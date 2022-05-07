@@ -29,14 +29,14 @@ function Conteudo(){
         <div className="aside">
             <div className="a-faixa1">
                 <div className="f1-esq">
-                    <img src="userlogado.jpg"/>
+                   <a href=""><img src="userlogado.jpg"/></a>
                 </div>
                 <div className="f1-cen">
-                    <p className="txtNegrito">ojediranjaque</p>
+                    <a href=""><p className="txtNegrito">ojediranjaque</p></a>
                     <p className="txtCinza">🇳🇬 | Jaqueline Ojediran</p>
                 </div>
                 <div className="f1-dir">
-                    <p className="txtAzul">Mudar</p>
+                    <a href=""><p className="txtAzul">Mudar</p></a>
                 </div>
             </div>
             <div className="a-faixa2">
@@ -44,7 +44,7 @@ function Conteudo(){
                     <p className="txtCinzaF2">Sugestões para você</p>
                 </div>
                 <div className="f2-dir">
-                    <p className="txtNegritoF2">Ver todas</p>
+                    <a href=""><p className="txtNegritoF2">Ver todas</p></a>
                 </div>
             </div>
             <div className="a-faixa3">
@@ -55,7 +55,7 @@ function Conteudo(){
                 <Sugestoes users='user5.jpg' userLogado="whatsupnati" biografia="Segue-te"/>
             </div>
             <div className="a-faixa4">
-                <p className="txtRodape">Sobre • Ajuda • Imprensa • API • Empregos • Privacidade • Termos • Localizações • Contas principais • Hashtags • Idioma</p>
+                <a href=""><p className="txtRodape">Sobre • Ajuda • Imprensa • API • Empregos • Privacidade • Termos • Localizações • Contas principais • Hashtags • Idioma</p></a>
                 <p className="txtRodape">© 2022 INSTAGRAM FROM META</p>
             </div>
         </div>
