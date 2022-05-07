@@ -1,0 +1,436 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FAFAFA;
+}
+
+main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+
+}
+
+header{
+  position: relative;
+  background-color: #FFFFFF;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #cdcdcd;
+  justify-content: center;
+}
+
+.centrao{
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.h-esq{
+  width: 30%;
+}
+
+.h-esq img{
+  width: 112px;
+  height: 40px;
+}
+
+.h-cen{
+  color: #8E8E8E;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 150px;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+}
+
+.h-cen p{
+  margin-left: 10px;
+}
+
+.h-cen img{
+  width: 16px;
+  height: 16px;
+}
+
+.h-dir{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h-dir img{
+  width: 23px;
+  height: 23px;
+}
+
+.userlog img{
+  border-radius: 50px;
+}
+
+
+.conteudo{
+  position: relative;
+  width: 60%;
+  justify-content: center;
+  float: left;
+  background-color: #FAFAFA;
+  display: flex;
+  margin-left:10%;
+}
+
+.area-stories{
+  position: relative;
+  display: flex;
+  width: 97%;
+  height: 100px;
+  border: 1px solid #cdcdcd;
+  background-color: #FFFFFF;
+  float: left;
+  margin: 30px 0;
+}
+
+.area-posts{
+  position: relative;
+  width: 97%;
+  height: auto;
+  border: 1px solid #cdcdcd;
+  background-color: #fff;
+  clear: left;
+  margin-bottom: 30px;
+}
+
+.aside{
+  position: fixed;
+  float: left;
+  width: 18%;
+  height: 400px;
+  left: 62%;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside p{
+  font-size: 14px;
+}
+
+.c-esq{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+}
+
+.faixa1{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.f-esq{
+  height: 50px;
+  float: left;
+  width: 10%;
+  padding-left: 20px;
+}
+
+.f-esq img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.f-cen{
+  width: 80%;
+  height: 50px;
+  float: left;
+}
+
+.f-cen .username{
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.f-cen .descricao{
+  color: gray;
+  font-size: 12px;
+}
+
+.f-dir{
+  width: 10%;
+  height: 50px;
+  float: left;
+  padding-top: 20px;
+}
+
+.f-dir img{
+  width: 18px;
+  height: 18px;
+}
+
+.photo{
+  width: 100%;
+  height: 550px;
+}
+
+.faixa2{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 12px 0;
+  margin-top:90px ;
+}
+
+.f2-esq{
+  padding-left: 10px;
+  width: 70%;
+}
+
+.f2-dir{
+  padding-right: 10px;
+  width: 30%;
+}
+
+.f2-esq img{
+  width: 30px;
+  height: 30px;
+  margin-left: 14px;
+}
+
+.f2-dir img{
+  width: 30px;
+  height: 30px;
+}
+
+.legenda{
+  padding: 0 20px;
+}
+
+.legenda img{
+  float: left;
+  border-radius: 50px;
+}
+
+.legenda p{
+  width: 90%;
+  font-size: 14px;
+  float: left;
+  padding-bottom: 3px;
+}
+
+.legenda img{
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 5px;
+}
+
+.txtNormal{
+  font-weight: normal;
+}
+
+.txtNegrito{
+  font-weight: 600;
+}
+
+.txtCinza{
+  color: gray;
+}
+
+.txtCinzaF2{
+  color: gray;
+}
+
+.txtNegritoF2{
+  font-weight: 600;
+  text-align: right;
+}
+
+
+.txtHora{
+  font-size: 10px;
+  color: gray;
+}
+
+.a-faixa4 .txtRodape{
+  font-size: 10px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.txtAzul{
+  color: rgb(52, 140, 255);
+  font-weight: 500;
+}
+
+.areaComentarios{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #cdcdcd;
+  clear: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.areaComenEsq{
+  width: 80%;
+  padding-left: 20px;
+}
+
+.areaComenEsq img{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+.areaComenEsq .txtCinza{
+  padding-top: 3px;
+}
+
+.areaComenDir{
+  padding-right: 20px;
+}
+
+.areaComentarios p{
+  font-size: 14px;
+}
+
+.a-faixa1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: space-evenly;
+  float: left;
+}
+
+.f1-esq{
+  width: 15%;
+}
+
+.f1-esq img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.f1-cen{
+  width: 60%;
+}
+
+.f1-dir{
+  width: 15%;
+}
+
+.photo img{
+  width: 100%;
+  height: auto;
+}
+
+.faixa2{
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.a-faixa3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.f3-cen{
+  width: 65%;
+}
+
+.f3-esq img{
+  width:20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.linha{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.linha p{
+  font-size: 12px;
+}
+
+
+.a-faixa2{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+table{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+
+td{
+  width: 55px;
+  padding-top: 8px;
+}
+
+td img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin: 0 14px;
+}
+
+td p{
+  font-size: 12px;
+  margin: 0 20px;
+  font-weight: 350;
+}
+
